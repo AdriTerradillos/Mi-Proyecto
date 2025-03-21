@@ -1,0 +1,100 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding: 10px;
+}
+    
+form { 
+
+    padding: auto;
+ 
+}
+
+legend {
+
+    font-size: 20px;
+    font-weight:100px;
+    margin-bottom: 10px;
+}
+
+label {
+
+    display: block;
+    margin-top: 12px;
+    font-size: 15px;
+    color: black;
+}
+
+
+/* Color del borde de contenido */
+select, textarea {
+
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+label {
+
+    display: flex;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+/* Alinear nombre y apellido en la misma línea */
+input[name="nombre"] {
+    display: inline;
+} 
+
+input[name="apellidos"] {
+    display: inline;
+} 
+
+/* Modificar atributos de botón submit */
+input[type="submit"] {
+
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px;
+    margin-top: 12px;
+    font-size: 12px;
+    border-radius: 10px;
+    border-bottom: 20px;
+    width: 5%;
+}
+
+input[type="reset"] {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 12px;
+    font-size: 12px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    box-sizing: 20px;
+    width: 5%;
+
+    
+}
+
+h4 {
+    color: black
+}
+
+.container {
+    background-color: wheat
+}
+
+navbar {
+    background-color: rgb(18, 18, 168);
+    font-size: 10px;
+    
+
+}
